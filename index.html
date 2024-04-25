@@ -21,31 +21,63 @@
                 <p>Masukan Suhu Derajat Celcius (&deg;C) ke kotak bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F)</p>
             </section> 
     
-            <section class="section-celcius">
-                <header>
-                    <h3>Celcius (&deg;C)</h3>
-                </header>
+            <div id="c-to-f">
+                <section class="section-celcius">
+                    <header>
+                        <h3>Celcius (&deg;C)</h3>
+                    </header>
     
-                <article>
-                    <textarea rows="1"></textarea>
+                    <article>
+                        <textarea rows="1"></textarea>
                     
-                    <div class="container-button"></div>
-                        <button id="button-convert">Convert</button>
-                        <button id="button-reset">Reset</button>
-                        <button id="button-reverse">Reverse</button>
-                    </div>
-                </article>
-            </section>
+                        <div class="container-button">
+                            <button id="button-convert">Convert</button>
+                            <button id="button-reset">Reset</button>
+                            <button id="button-reverse" onclick="test();">Reverse</button>
+                        </div>
+                        </article>
+                </section>
 
-            <section class="section-fahrenheit">
-                <header>
-                    <h3>Fahrenheit (&deg;F)</h3>
-                </header>
+                <section class="section-fahrenheit">
+                    <header>
+                        <h3>Fahrenheit (&deg;F)</h3>
+                    </header>
     
-                <article>
-                    <textarea rows="1"></textarea>
-                </article>
-            </section>
+                    <article>
+                        <textarea rows="1"></textarea>
+                    </article>
+                </section>
+            </div>
+
+            <div id="f-to-c">
+                <section class="section-fahrenheit">
+                    <header>
+                        <h3>Fahrenheit (&deg;F)</h3>
+                    </header>
+    
+                    <article>
+                        <textarea rows="1"></textarea>
+                    </article>
+                </section>
+                
+                <section class="section-celcius">
+                    <header>
+                        <h3>Celcius (&deg;C)</h3>
+                    </header>
+    
+                    <article>
+                        <textarea rows="1"></textarea>
+                    
+                        <div class="container-button">
+                            <button id="button-convert">Convert</button>
+                            <button id="button-reset">Reset</button>
+                            <button id="button-reverse" onclick="reverse();">Reverse</button>
+                        </div>
+                        </article>
+                </section>
+            </div>
+
+
 
             <section class="section-result">
                 <header>

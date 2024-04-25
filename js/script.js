@@ -1,10 +1,18 @@
 // Ini File js
 
-function test() {
-    let str = "A";
-    if (str == "A") {
-        console.log(true);
+let isReverse = false;
+
+function reverse() {
+    let cToF = document.getElementById("c-to-f");
+    let fToC = document.getElementById("f-to-c");
+
+    if (isReverse) {
+        console.log(isReverse);
+        fToC.style.display = "block";
+        cToF.style.display = "none";
     } else {
-        console.log(false);
+        console.log(isReverse);
+        cToF.style.display = "block";
+        fToC.style.display = "none";
     }
 }
