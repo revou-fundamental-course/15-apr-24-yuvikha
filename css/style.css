@@ -80,3 +80,7 @@ button{
     background: rgb(235, 121, 159);
     color: black;
 }
+
+#f-to-c {
+    display: none;
+}
